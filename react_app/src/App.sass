@@ -1,0 +1,116 @@
+@charset "utf-8"
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans:700&display=swap')
+
+// // Project Theme Colors
+$black: #1A1A1D
+$grey: #4E4E50
+$red: #C3073F
+$white: #FDFFFC
+$yellow: #ECD444
+$pink: #950740
+$green: #67E004
+
+// // Primary Colors
+$primary: $green
+$link: $grey
+// // $info: $cyan
+// // $success: $green
+// // $warning: $yellow
+// // $danger: $red
+// // $dark: $grey-darker
+// // $text: $grey-dark
+
+// // Update Bulma's global variables
+$family-sans-serif: 'Montserrat', sans-serif
+$family-secondary: 'Work Sans', sans-serif
+// $grey-dark: $th-1-black;
+// $grey-light: $th-1-white;
+$widescreen-enabled: false
+$fullhd-enabled: false
+$body-background-color: $white
+
+// Update some of Bulma's component variables
+// $body-background-color: $beige-lighter;
+$control-border-width: 2px
+$input-border-color: transparent
+$input-shadow: none
+
+
+// Import only what you need from Bulma
+@import '../node_modules/bulma/bulma.sass';
+// @import '../node_modules/bulma/sass/utilities/_all.sass'
+// @import '../node_modules/bulma/sass/base/_all.sass'
+// @import '../node_modules/bulma/sass/elements/button.sass'
+// @import '../node_modules/bulma/sass/elements/container.sass'
+// @import '../node_modules/bulma/sass/elements/form.sass'
+// @import '../node_modules/bulma/sass/elements/title.sass'
+// @import '../node_modules/bulma/sass/form/_all.sass';
+// @import '../node_modules/bulma/sass/components/navbar.sass'
+// @import '../node_modules/bulma/sass/layout/hero.sass'
+// @import '../node_modules/bulma/sass/layout/section.sass'
+
+
+
+.title
+    font-family: $family-secondary
+    // font-size: 4rem
+    font-weight: 700
+    text-transform: uppercase
+    color: $green
+
+
+.p-1 
+    padding: 3rem
+
+// ////////////////////////////////////////////////////////////
+// //////////////// MARGIN / PADDING HELPER ///////////////////
+// $sizes: (
+// 	1,
+// 	2,
+// 	3,
+// 	4,
+// 	5,
+// 	6,
+// 	7
+// );
+// $positions: (
+// 	"top",
+// 	"left",
+// 	"bottom",
+// 	"right"
+// );
+// $bulmaSizes: (
+// 	$size-1,
+// 	$size-2,
+// 	$size-3,
+// 	$size-4,
+// 	$size-5,
+// 	$size-6,
+// 	$size-7
+// );
+// $i: 1;
+// @each $size in $sizes {
+// 	$sizee: nth($bulmaSizes, $i);
+// 	$i: $i+1;
+// 	.has-margin-#{$size} {
+// 		margin: $sizee !important;
+// 	}
+// 	.has-negative-margin-#{$size} {
+// 		margin: -$sizee !important;
+// 	}
+// 	.has-padding-#{$size} {
+// 		padding: $sizee !important;
+// 	}
+// 	@each $position in $positions {
+// 		.has-margin-#{$position}-#{$size} {
+// 			margin-#{$position}: $sizee !important;
+// 		}
+// 		.has-padding-#{$position}-#{$size} {
+// 			padding-#{$position}: $sizee !important;
+// 		}
+// 		.has-negative-margin-#{$position}-#{$size} {
+// 			margin-#{$position}: -$sizee !important;
+// 		}
+// 	}
+// }

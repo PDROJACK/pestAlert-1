@@ -14,7 +14,7 @@ const Home = (props) => {
             <div className="hero-body">
                 <div className="container">
                     <h1 className="title is-size-1">
-                        GREENVIEW
+                        PestAlert
                     </h1>
                     { loggedIn && (
                         <h2 className="subtitle">
